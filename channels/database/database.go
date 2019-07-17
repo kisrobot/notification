@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/notification"
-	"github.com/qor/qor"
+	"github.com/kisrobot/notification"
+	"github.com/kisrobot/qor"
 )
 
 type Config struct {

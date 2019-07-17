@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor/utils"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/qor/utils"
 )
 
 func (notification *Notification) Action(action *Action) error {
